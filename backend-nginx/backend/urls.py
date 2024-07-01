@@ -17,9 +17,10 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
-from api.views import get_hostname
+from api.views import get_hostname, get_nginx
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", get_hostname),
+    path("nginx/", get_nginx),
 ]

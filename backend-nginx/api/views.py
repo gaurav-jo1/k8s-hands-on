@@ -7,6 +7,6 @@ def get_hostname(request):
     return HttpResponse(f"Version 2: Hello from the {hostname}")
 
 def get_nginx(request):
-    url = "https://nginx"
+    url = "http://nginx"
     response = requests.get(url)
-    return HttpResponse(response)
+    return HttpResponse(response.content)
