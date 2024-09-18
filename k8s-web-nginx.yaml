@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: k8s-web-nginx
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: k8s-web-nginx
   ports:

@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+        "kubernetes://schema/apps/v1%40deployment": "file:///home/danny/Desktop/Kubernetes/k8s-web-nginx.yaml",
+        "kubernetes://schema/v1%40service": "file:///home/danny/Desktop/Kubernetes/nginx.yaml"
+    }
+}
